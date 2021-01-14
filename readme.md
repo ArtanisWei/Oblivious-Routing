@@ -11,12 +11,12 @@ https://ieeexplore.ieee.org/document/4032716
 
 ObliviousRouting_Solver.py reads the topology file, calculates OR, and prints it to startegy file.
 
-###Format of input:###
+### Format of input: ###
 
 The first line is two integers M, N, the number of nodes and edges
 For the next N lines, each line contains three **integer**: n1, n2, c, describe a **bidirectional** edge that connects n1 and n2 with maxinum capacity of c.
 
-###Format of output:###
+### Format of output: ###
 
 The routing f in the paper.
 Or you can run the OR_decoder.py to get a more intuitive explanation.
@@ -24,7 +24,7 @@ Or you can run the OR_decoder.py to get a more intuitive explanation.
 ## About OR_decoder.py
 It reads the topology, the strategy and caculates the path
 
-###Format of output###
+### Format of output ###
 
 Each line describe a path of OR strategy.
 path[:-1] is the nodes in the path, and path[-1] is the split ratio of traffic from path[0] to path[-2]
