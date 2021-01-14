@@ -14,7 +14,7 @@ ObliviousRouting_Solver.py reads the topology file, calculates OR, and prints it
 ### Format of input: ###
 
 The first line is two integers M, N, the number of nodes and edges
-For the next N lines, each line contains three **integer**: n1, n2, c, describe a **bidirectional** edge that connects n1 and n2 with maxinum capacity of c.
+For the next N lines, each line contains three **integers**: n1, n2, c, describe a **bidirectional** edge that connects n1 and n2 with maxinum capacity of c.
 
 ### Format of output: ###
 
